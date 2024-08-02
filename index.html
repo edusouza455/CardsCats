@@ -13,26 +13,73 @@
           <img class="gato" src="https://i.pinimg.com/564x/7a/9c/c3/7a9cc36f478969da92e2e9fee391a5b2.jpg"> 
        <h1 class="title">Gato Nerd</h1>
           <p class="texto">Essa gato sabe de muitas coisas </p>
-          <button class="brilho" type="button">Mais Detalhes</button>
-      
-      
+          <button class="brilho" type="button">Mais Detalhes</button> 
         </div>
         
         <div class="card">
             <img class="gato" src="https://i.pinimg.com/564x/bf/30/d9/bf30d922f99625690d576b77062cc4ae.jpg"> 
             <h1 class="title">Gato Rock</h1>
             <p class="texto">Só tem moral que é do Rock</p>
-            <button class="brilho" type="button">Mais Detalhes</button>
-      
-        </div>
+            <button class="brilho" type="button">Mais Detalhes</button>      
+        </div>        
         
         <div class="card">
           <img class="gato" src="https://i.pinimg.com/564x/9e/57/c9/9e57c989aa61572e43f5fcc8c16ae6ca.jpg"> 
           <h1 class="title">Gato Academia</h1>
           <p class="texto">Sem dor sem ganho</p>
-          <button class="brilho" type="button">Mais Detalhes</button>
-      
+          <button class="brilho" type="button">Mais Detalhes</button>      
         </div>
+
+        <div class="card">
+          <img class="gato" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQWJkk8x0bjzOSACJceFaRddu3TuZS7Y_E-Q&s"> 
+          <h1 class="title">Gato</h1>
+          <p class="texto">Gato</p>
+          <button class="brilho" type="button">Gato</button>
+        </div>
+
+        <div class="card">
+          <img class="gato" src="https://imgb.ifunny.co/images/8070363d3df766aa97beda889bc2685cc73c61fe066d5a8e6aa266133bb11c82_1.jpg"> 
+          <h1 class="title">Gato com rosa</h1>
+          <p class="texto"> Este gato lhe oferece uma rosa 🌹</p>
+          <button class="brilho" type="button">Mais Detalhes</button>    
+        </div>
+
+        <div class="card">
+          <img class="gato" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-1AIi_ofImEE_M0kMgIjx56Sf_jgvqa77Lw&s"> 
+          <h1 class="title">Gato MUHEHEHE</h1>
+          <p class="texto"> Este gato está rindo de forma maligna</p>
+          <button class="brilho" type="button">Mais Detalhes</button>    
+        </div>
+
       </div>
 </body>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+      const buttons = document.querySelectorAll('button');
+      buttons.forEach((button, index) => {
+          button.addEventListener('click', () => {
+            if (index + 1 == 1) {
+                alert(`Esse gato ama estudar (igual eu)`);
+
+              } else if (index + 1 == 2) {
+                alert(`Esse gato ama as bandas Nirvana, Rita Lee, supercombo, Raimundos, Engenheiros do hawaii, KORN e muito mais`);
+
+              } else if (index + 1 == 3) {
+                alert(`Esse gato nunca pulou o dia de perna`);
+
+              } else if (index + 1 == 4) {
+                alert(`GATO`);
+              
+              } else if (index + 1 == 5) {
+                alert(`Essa gato é o ultimo romantico do planeta`);
+
+              } else {
+                alert(`Esse gato planeja a dominação mundial`);
+            } 
+              
+          });
+      });
+  });
+  </script>
 </html>

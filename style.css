@@ -45,7 +45,12 @@ body {
   background-color: #fff;
   margin: 10px;
   text-align: center;
+  transition: all 0.8s 0s ease;
   
+}
+
+.card:hover {
+  transform: scale(1.03);  
 }
 
 
